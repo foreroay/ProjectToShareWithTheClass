@@ -16,6 +16,7 @@ namespace ProjectToShareWithTheClass
 
         // Create getter and a setter for the private properties
         public double Price { get { return _price; } set { _price = value; } }
+        public string color { get { return _color; } set {_color = value; } }
 
     }
 }
